@@ -16,6 +16,12 @@ Usage: java -jar JNDIMonitor-1.0-SNAPSHOT.jar [options]
     -h, --help     Show this help
 ```
 
+Linux下输出记录至success.txt
+
+```shell
+java -jar JNDIMonitor-1.0-SNAPSHOT.jar -i 0.0.0.0 -l 1389 | tee sucess.txt
+```
+
 ## 参考
 
 https://github.com/0x727/JNDIExploit/
